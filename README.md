@@ -22,8 +22,6 @@ Applying ROCCC approach to identify the credibility of the data:
 	Current – It is an outdated data since the data is almost 11 years old.
 	Cited – The data is from a cited and vetted company which is Amazon and hence the data is cited.
 
-3.	Process
-     This step involves cleaning, verifying, and processing the data for analysis. I would go ahead with R language due to the ease of analysis and variety of packages it offers. Now I will be using the prepared data to verify, clean and transform the data for analysis.
 # load the packages
 install.packages("tidyverse")
 install.packages("skimr")
@@ -62,6 +60,9 @@ colnames(sleep_daily)
 View(activity_daily)
 View(steps)
 View(sleep_daily)
+
+3.	Process
+     This step involves cleaning, verifying, and processing the data for analysis. I would go ahead with R language due to the ease of analysis and variety of packages it offers. Now I will be using the prepared data to verify, clean and transform the data for analysis.
 
 #identify number of unique data
 n_unique(activity_daily$Id)
