@@ -1,8 +1,3 @@
-### Hi there 👋
-
-<!--
-**Vilas06/Vilas06** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
 Bellabeat Capstone Project
 
 Scenario
